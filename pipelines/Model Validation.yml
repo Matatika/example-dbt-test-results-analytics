@@ -3,7 +3,7 @@
 #     meltano config --plugin-type=files analyze-dbt-artifacts set _update pipelines/Model Validation.yml false
 
 version: pipelines/v0.1
-name: Model Validation
+label: Model Validation
 timeout: 0
 script: |-
   meltano install - tap-dbt-artifacts target-postgres dbt

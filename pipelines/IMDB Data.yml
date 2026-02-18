@@ -1,5 +1,5 @@
 version: pipelines/v0.1
-name: IMDB Data
+label: IMDB Data
 timeout: 0
 script: |-
   meltano install - tap-spreadsheets-anywhere target-postgres dbt
